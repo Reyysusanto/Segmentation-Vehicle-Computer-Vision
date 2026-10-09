@@ -1,0 +1,19 @@
+[project]
+name = "kelompok-6-uts"
+version = "0.1.0"
+description = "UTS Computer Vision Kelompok 6 - image enhancement dan segmentasi citra mobil"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "kagglehub>=1.0.2",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.3",
+    "opencv-python>=5.0.0.93",
+    "pandas>=3.0.6",
+    "scikit-image>=0.26.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.4.0",
+]
